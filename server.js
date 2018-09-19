@@ -12,7 +12,7 @@ dotenv.config();
 const passport = require("passport");
 const { Strategy:JwtStrategy, ExtractJwt } = require("passport-jwt");
 
-const passportOpts = {
+/*const passportOpts = {
   //Set Extraction method to pull it out from our header
   jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
   //Our secrt
@@ -33,7 +33,7 @@ passport.use(new JwtStrategy(
       }
     });
   }
-));
+));*/
 
 const PORT = process.env.PORT || 3001;
 
