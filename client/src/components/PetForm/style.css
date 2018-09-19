@@ -1,0 +1,10 @@
+.petform {
+    margin: 20px;
+  }
+  
+  .petform input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
